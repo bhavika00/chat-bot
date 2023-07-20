@@ -64,7 +64,7 @@ head, html{
   outline: none;
   font-style: italic;
   font-size: 15px;
-  font-family: Normal;
+  font-style: Normal;
   color: black;
 }
 
