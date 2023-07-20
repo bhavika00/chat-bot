@@ -1,0 +1,85 @@
+
+head, html{
+  width: 1000px;
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: BOLD;
+  font-size: 20px;
+  font-variant-ligatures: normal;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+
+
+.chat-message{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+/* Style the chat container */
+.chat-container {
+  max-width: 1000px;
+  max-height: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Style the chat messages area */
+.chat-messages {
+  height: 500px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Style individual chat messages */
+.chat-message {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', cursive;
+}
+
+/* Style user input section */
+.user-input {
+  display: flex;
+  margin-top: 10px;
+
+}
+
+/* Style the user input field */
+.user-input input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-style: italic;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', cursive;
+  color: #0056b3;
+}
+
+/* Style the submit button */
+.user-input button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+.user-input button:hover {
+  background-color: #0056b3;
+}
